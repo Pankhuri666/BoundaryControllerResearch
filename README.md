@@ -30,6 +30,40 @@ Four controller configurations were evaluated.
 | 1.0 m | 0.0412 | 1.535 | 341,191 |
 | 1.5 m | 0.1375 | 2.736 | 738,078 |
 
+## Average Lateral Error
+
+![Average Error](graphs/avg_error.png)
+
+---
+
+## Maximum Lateral Error
+
+![Maximum Error](graphs/max_error.png)
+
+---
+
+## Controller Corrections
+
+![Corrections](graphs/corrections.png)
+
+---
+
+# Key Findings
+
+- Successfully implemented the boundary-aware lateral controller from the research paper.
+- Evaluated controller performance under multiple safety margin configurations.
+- Generated quantitative performance metrics and visualization plots.
+- Observed that increasing the safety margin results in larger lateral deviations and more frequent controller interventions.
+
+---
+
+# Future Work
+
+- Reproduce additional experiments from the paper.
+- Compare the proposed controller with alternative steering strategies.
+- Extend the implementation to lane-free roundabout scenarios.
+- Investigate controller tuning for improved stability and reduced corrections.
+
 ## Repository Structure
 
 ```
