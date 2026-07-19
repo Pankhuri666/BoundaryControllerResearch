@@ -80,6 +80,61 @@ graphs/
 
 screenshots/
 ```
+---
+
+# Simulation Results
+
+## Lane-Free Traffic Simulation
+
+### Ring Road Scenario
+
+![Ring Road](screenshots/ring_road.png)
+
+### Boundary-aware Vehicle Motion
+
+![Boundary](screenshots/boundary.png)
+
+### Traffic Simulation
+
+![Traffic](screenshots/traffic.png)
+
+### Vehicle Distribution
+
+![Vehicles](screenshots/vehicles.png)
+
+### Controller Execution
+
+![Terminal](screenshots/terminal.png)
+
+---
+
+# Experimental Graphs
+
+## Average Lateral Error
+
+![Average Error](graphs/avg_error.png)
+
+## Maximum Lateral Error
+
+![Maximum Error](graphs/max_error.png)
+
+## Controller Corrections
+
+![Corrections](graphs/corrections.png)
+
+---
+
+## Conclusion
+
+The implemented boundary controller was evaluated under four safety margins (0.2 m, 0.5 m, 1.0 m and 1.5 m).
+
+The experiments demonstrate that increasing the safety margin results in:
+
+- Higher average lateral error
+- Higher maximum lateral error
+- Increased controller intervention
+
+These observations are consistent with the expected behavior of the controller proposed in the research paper.
 
 ## Results
 
